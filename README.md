@@ -1,6 +1,6 @@
 ![Gif](https://github.com/CaCaBlocker/Gifs/blob/2eaffc1311346c5037687c066e906c475f35e7a9/481EA8B5-9AD8-4E80-9083-66D37433F53D.GIF)
 
-# Login in website with xumm wallet
+# Log in website with xumm wallet
 
 Thanks for visiting my cute repository. This includes both server and client which run on XRPL. The client is website developed by **React** for login with xumm mobile wallet.
 The server is developed by **Express Node Framework**.
