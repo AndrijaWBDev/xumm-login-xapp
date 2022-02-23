@@ -54,7 +54,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={onConnect}>Connect Wallet</button>
-      <p>{log}</p>
+      <p>{log && `Status: ${log}`}</p>
       {payload && payload.status && (
         <div
           style={{
