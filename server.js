@@ -3,6 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
+require("dotenv").config();
+
 const API_KEY = process.env.API_KEY;
 const API_SECRET = process.env.API_SECRET;
 

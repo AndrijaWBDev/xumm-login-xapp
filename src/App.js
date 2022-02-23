@@ -3,9 +3,10 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import useWebSocket, { ReadyState } from "react-use-websocket";
 
-const SERVER_BASE_URL = "http://10.10.13.96:5000";
+const SERVER_BASE_URL = process.env.SERVER_BASE_URL;
 
 function App() {
+  console.log("process.env", process.env);
   const [payload, setPayLoad] = useState(null);
   const [socketUrl, setSocketUrl] = useState(null);
   const { lastMessage, readyState } = useWebSocket(socketUrl, { share: true });

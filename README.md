@@ -7,6 +7,9 @@ The server is developed by **Express Node Framework**.
 
 First of all, you need to register on https://apps.xumm.dev/
 And then create an application, and then get API key and secret and set them on .env.
+At last, please set SERVER_BASE_URL env. For example, if you run it on local, you can set "http://your-ip-address:5000".
+
+The default server port is 5000, and client is 3000.
 
 ## How to run
 
