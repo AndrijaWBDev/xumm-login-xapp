@@ -3,15 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-const API_KEY = "c37112b2-7ab7-49fc-aa57-a6c37971046b";
-const API_SECRET = "aa96a932-f621-4369-ac3a-fb8eea26e0f3";
-// const { XummSdk } = require("xumm-sdk");
-// const Sdk = new XummSdk(API_KEY, API_SECRET);
-
-// const applicationName = async () => {
-//   const appInfo = await Sdk.ping();
-//   console.log("Application Name:", appInfo.application.name);
-// };
+const API_KEY = process.env.API_KEY;
+const API_SECRET = process.env.API_SECRET;
 
 const app = express();
 
